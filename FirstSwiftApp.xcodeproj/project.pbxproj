@@ -54,14 +54,30 @@
 		EEB477B21F87C71200675EF3 /* FirstSwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				EEB477C61F87D99500675EF3 /* Controller */,
 				EEB477B31F87C71200675EF3 /* AppDelegate.swift */,
 				EEB477B51F87C71200675EF3 /* ViewController.swift */,
 				EEB477B71F87C71200675EF3 /* Main.storyboard */,
 				EEB477BA1F87C71200675EF3 /* Assets.xcassets */,
 				EEB477BC1F87C71200675EF3 /* LaunchScreen.storyboard */,
-				EEB477BF1F87C71200675EF3 /* Info.plist */,
+				EEB477C51F87D94400675EF3 /* setings */,
 			);
 			path = FirstSwiftApp;
+			sourceTree = "<group>";
+		};
+		EEB477C51F87D94400675EF3 /* setings */ = {
+			isa = PBXGroup;
+			children = (
+				EEB477BF1F87C71200675EF3 /* Info.plist */,
+			);
+			path = setings;
+			sourceTree = "<group>";
+		};
+		EEB477C61F87D99500675EF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
