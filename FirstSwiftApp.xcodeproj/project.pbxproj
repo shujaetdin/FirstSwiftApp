@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3E39291F94FF69006588F7 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E39281F94FF69006588F7 /* SecondPageViewController.swift */; };
+		EE3E392B1F95040B006588F7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E392A1F95040B006588F7 /* ThirdViewController.swift */; };
 		EEB477B41F87C71200675EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB477B31F87C71200675EF3 /* AppDelegate.swift */; };
 		EEB477B61F87C71200675EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB477B51F87C71200675EF3 /* ViewController.swift */; };
 		EEB477B91F87C71200675EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB477B71F87C71200675EF3 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE3E39281F94FF69006588F7 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
+		EE3E392A1F95040B006588F7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		EEB477B01F87C71200675EF3 /* FirstSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB477B31F87C71200675EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEB477B51F87C71200675EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 		EEB477C61F87D99500675EF3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EE3E39281F94FF69006588F7 /* SecondPageViewController.swift */,
+				EE3E392A1F95040B006588F7 /* ThirdViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -152,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3E39291F94FF69006588F7 /* SecondPageViewController.swift in Sources */,
 				EEB477B61F87C71200675EF3 /* ViewController.swift in Sources */,
+				EE3E392B1F95040B006588F7 /* ThirdViewController.swift in Sources */,
 				EEB477B41F87C71200675EF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
