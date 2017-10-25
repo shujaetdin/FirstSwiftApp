@@ -9,16 +9,41 @@
 import UIKit
 import AVFoundadtion
 
-public class MediaPageController
+public class MediaPageController : UIViewContoller
 {
     private var soundPlayer : AVAudioPLayer?
     private var imageCounter: Int = 0
     private lazy var color : ColorTools = ColorTools()
     
     @IBOutlet weak var imageFrame: UImageView!
+    @IBOutlet weak var imageButton: UIButton!
+    @IBOutlet weak var sound: UIButton!
+    @IBOutlet weak var soundSlider: UISlider!
+    
+    @IBAction func changePicture() -> Void
+    {
+        switchImage()
+    }
+    
+    private func stchImage() -> Void
+    {
+        if (imageCounter > 4)
+        {
+            imageCounter = 0
+        }
+        
+        if (imageCounter == 0)
+        {
+            imageFrame.image = UImage(named: "Sean")
+        }
+    else if (imageCounter == 1)
+        {
+    }
     
     
-        super.viewDidLoad()
+    
+    
+    super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
@@ -39,4 +64,12 @@ public class MediaPageController
     }
     */
 
-}
+
+
+private func loadAudioFile() -> void
+
+
+
+
+
+
