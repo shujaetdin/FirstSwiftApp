@@ -66,6 +66,49 @@ import UIKit
     return orderedAbstractionViews[previousIndex]
     }
    
+    
+    public func pageViewControlle(_pagViewController: UIPageViewController: UIPageViewController, viewControllerAfter
+        viewController; UIViewController) -> UIViewController?
+    {
+        gurad let viewControllerIndex = orderedAbstractionViews.index(od: viewController)
+        else
+        {
+            return nil
+        }
+        
+        let nextIndex = viewControllerIndex + 1
+        
+        guard nextIndex >= 0
+        else
+        {
+            return nil
+        }
+        
+        guard nextIndex < orderededAbstractionViews.count
+        else
+        {
+            return orderedAbstractionViews.count
+        }
+        
+        public func presentationIndex(for pageViewController: UIPageController) -> Int
+        {
+            return orderedAbstractionViews.count
+        }
+        
+        public func presentationIndex(for pageViewCotroller: UIPageViewController) -> Int
+        {
+            guard let firstViewController = viewControllers?.first, let firstViewControllerIndex =
+                orderedAbstractionViews.index(of: firstViewController)
+            else
+            {
+                return 0
+            }
+        
+        return firstViewControllerIndex
+        }
+    }
+        
+        
     // Do any additional setup after loading the view.
     }
 
