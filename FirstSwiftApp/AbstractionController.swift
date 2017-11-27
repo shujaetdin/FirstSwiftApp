@@ -39,8 +39,34 @@ import UIKit
                               animated: true,
                               completion: nil)
         }
-
-        // Do any additional setup after loading the view.
+    }
+    
+    //MARK:- Required Protocol methods for UIPageViewControllerDataSource
+    public func pageViewController(_ pageiewController: UIPageViewController, viewControllerBefore
+        viewController: UIViewController) -> UIViewController) -> UIViewController?
+    {
+    guard let ViewControllerIndex = orderedAbstractionViews.index(of: viewController)
+    else
+    {
+    return nil
+    }
+    
+    let previousIndex = viewControllerndex - 1
+    
+    guardpreviousIndex >= 0
+    else
+    {
+    return orderedAbstractionViews.last
+    }
+    guard orderedAbstractionViews.count > previousIndex
+    else
+    {
+    return nil
+    }
+    return orderedAbstractionViews[previousIndex]
+    }
+   
+    // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
