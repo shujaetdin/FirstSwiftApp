@@ -12,6 +12,7 @@
 		EE0F18381FC32CD6000ADE1B /* Fillable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F18371FC32CD6000ADE1B /* Fillable.swift */; };
 		EE3E39291F94FF69006588F7 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E39281F94FF69006588F7 /* SecondPageViewController.swift */; };
 		EE3E392B1F95040B006588F7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E392A1F95040B006588F7 /* ThirdViewController.swift */; };
+		EE581A1C1FCF0081009CCE1A /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE581A1B1FCF0081009CCE1A /* InternetDetailViewController.swift */; };
 		EEB477B41F87C71200675EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB477B31F87C71200675EF3 /* AppDelegate.swift */; };
 		EEB477B61F87C71200675EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB477B51F87C71200675EF3 /* ViewController.swift */; };
 		EEB477B91F87C71200675EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB477B71F87C71200675EF3 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		EE0F18371FC32CD6000ADE1B /* Fillable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fillable.swift; sourceTree = "<group>"; };
 		EE3E39281F94FF69006588F7 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 		EE3E392A1F95040B006588F7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		EE581A1B1FCF0081009CCE1A /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		EEB477B01F87C71200675EF3 /* FirstSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB477B31F87C71200675EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEB477B51F87C71200675EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				EE3E39281F94FF69006588F7 /* SecondPageViewController.swift */,
 				EE3E392A1F95040B006588F7 /* ThirdViewController.swift */,
 				EE06874A1FCC601500E5138F /* AbstractionController.swift */,
+				EE581A1B1FCF0081009CCE1A /* InternetDetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE581A1C1FCF0081009CCE1A /* InternetDetailViewController.swift in Sources */,
 				EE0F18361FC32C8A000ADE1B /* File.swift in Sources */,
 				EE06874B1FCC601500E5138F /* AbstractionController.swift in Sources */,
 				EE3E39291F94FF69006588F7 /* SecondPageViewController.swift in Sources */,
